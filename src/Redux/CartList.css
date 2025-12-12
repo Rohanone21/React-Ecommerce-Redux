@@ -1,0 +1,83 @@
+/* CONTAINER */
+.cart-container {
+  width: 80%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* HEADER */
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart-header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* EACH ROW */
+.cart-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* LEFT — IMAGE + DETAILS */
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item-info img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* PRODUCT TEXT */
+.item-details h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item-details p {
+  margin: 0;
+  font-size: 14px;
+  color: grey;
+}
+
+/* RIGHT — PRICE + BUTTON */
+.item-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2b7a78;
+}
+
+.remove-btn {
+  background: #345a72;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #1f3f54;
+}

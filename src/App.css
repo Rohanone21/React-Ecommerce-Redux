@@ -1,0 +1,72 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background: #333;         /* Dark background → white cart becomes visible */
+  padding: 12px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffdd00;
+}
+
+/* Cart Icon Container */
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Cart Count Badge */
+.cart-count {
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  display: inline-block;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px 1fr));
+  gap: 20px;
+}
+
+.btn-disable{
+  background-color: gainsboro;
+}
+
+.btn-disable:hover{
+  background-color: gainsboro;
+}

@@ -1,0 +1,54 @@
+/* Header container */
+header {
+  background: #222;                /* Dark background to show white cart */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffbf47;
+}
+
+/* Cart Icon */
+.cart {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cart img {
+  width: 32px;        /* Bigger size for visibility */
+  height: 32px;
+  filter: invert(100%);  /* Makes icon white clearly */
+}
+
+/* Count Badge */
+.cart-count {
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
